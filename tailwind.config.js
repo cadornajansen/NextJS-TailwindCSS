@@ -1,13 +1,8 @@
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  future: {
-    hoverOnlyWhenSupported: true,
-  },
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./app/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -16,5 +11,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("@headlessui/tailwindcss")],
-};
+  plugins: [],
+}
