@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-_transition {
-  @apply transition duration-300 ease-in-out
+html {
+  @apply font-sans bg-[#111]
+}
+
+._link {
+  @apply text-gray-200
+}
+
+._transition {
+  @apply duration-300 ease-in-out
 }
